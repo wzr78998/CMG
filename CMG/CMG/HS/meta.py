@@ -136,7 +136,7 @@ def contrastive(z, z_cp, labels,params):
 from tool import *
 def get_params():
     parser = argparse.ArgumentParser(description="Few Shot Visual Recognition")
-    parser.add_argument("--seed", type=int, default=4822107, help='random seed')
+    parser.add_argument("--seed", type=int, default=2941515, help='random seed')
     parser.add_argument("--TT", type=int, default=5, help='random seed')
     parser.add_argument("--dataset_t", type=str, default='HS13', help='the data of the target')
     parser.add_argument("--eps", type=float, default=0.8, help='feature_dim')
